@@ -1,0 +1,27 @@
+{
+  "name": "alaaru-api-serverless",
+  "version": "1.0.0",
+  "description": "serverless architecture of the api",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "alaaru"
+  ],
+  "author": "Photizo Technologies",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^5.12.0"
+  },
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.1",
+    "serverless-plugin-additional-stacks": "^1.3.0",
+    "serverless-pseudo-parameters": "^2.5.0"
+  }
+}
